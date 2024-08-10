@@ -50,7 +50,7 @@
         </div>
         <p>Or Send Via Email</p>
         <div class="email-container">
-          <form action="">
+          <form id="emailForm">
             <div class="field">
                 <label for="sender">Your email:</label>
                 <input type="email" required name="from-email" id="sender">
@@ -59,10 +59,13 @@
                 <label for="receiver">Receiver's email:</label>
                 <input type="email" required name="to-email" id="receiver">
             </div>
+            <button type="submit">Send</button>
           </form>
         </div>
       </div>
     </section>
+    <div class="upload-vector"></div>
+    <div class="toast">Sample Toast Text</div>
     <script src="index.js"></script>
   </body>
 </html>
