@@ -1,0 +1,3 @@
+ - UUID 
+ - Multer 
+ - nodemailer
