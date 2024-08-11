@@ -15,7 +15,10 @@ const emailForm = document.querySelector("#emailForm");
 
 const toast = document.querySelector(".toast");
 
-const baseURL = "https://syncsharebackend.onrender.com";
+const baseURL = "https://syncsharebackend.onrender.com";  // deployed backend url -> render
+
+// const baseURL = "http://localhost:3000"; // local backend url 
+
 const uploadURL = `${baseURL}/api/files`;
 const emailURL = `${baseURL}/api/files/send`;
 
