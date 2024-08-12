@@ -7,12 +7,18 @@ const cors = require('cors');
 
 // Cors 
 
+/*
 const corsOptions = {
     origin: process.env.ALLOWED_CLIENTS ? process.env.ALLOWED_CLIENTS.split(',') : '*',
     methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
     preflightContinue: false,
    optionsSuccessStatus: 204
   };
+*/
+
+const corsOptions ={
+  origin: ['http://127.0.0.1:5500','https://syncshare.netlify.app/']
+}
 
 
 // Default configuration looks like
